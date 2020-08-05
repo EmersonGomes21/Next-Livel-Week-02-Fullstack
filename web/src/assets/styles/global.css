@@ -29,6 +29,7 @@
 
 html, body, #root{
   height: 100vh; /*Pagina sempre ocupa 100% da tela*/
+ 
 }
 body{
   background: var(--color-background);
@@ -45,7 +46,7 @@ input,
 button,
 textarea{
   font: 500 1.6rem Poppins;
-
+  color:var(--color-text-base);
 }
 
 .container{
